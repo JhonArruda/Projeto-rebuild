@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    
+    background: linear-gradient(45deg, rgb(131, 65, 15, 0.8) 50%, rgba(207, 188, 174, 0.8) 100%);
+    
+    min-height: 100vh;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#planta {
+    width: 100px;
+    height: 100px;
+
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Concert One', sans-serif;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Slabo 13px', serif;
+    font-style: oblique;
+}
+
+li {
+    font-family: 'Slabo 13px', serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:#0c0320;
+}
+
+
+ul li a {
+    opacity: 0.5;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#imagem {
+    width: 500px;
+    height: 500px;
+  
+
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    justify-content: center;
+    gap: 10px;    
+    border: none;
+    background: #69b99d; 
+    display: inline-flex;
+  
+    align-items: center;
+    cursor: pointer; 
+    padding: 14px 100px 15px;
+}
+
+#wwp {
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    color: rgba(255, 128, 0, 1);
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+ 
+    margin-top: 80px;
+
+    font-family: 'Slabo 13px', serif;
+}
+ 
+ 
+footer a {
+    font-weight: bold;
+}
+
+#balls {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
